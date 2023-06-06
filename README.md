@@ -35,20 +35,16 @@ To write a python program using OpenCV to capture the image from the web camera 
 ## Software Used
 Anaconda - Python 3.7
 ## Algorithm
-**Step 1:** Import cv2 and capture the video using cv2.VideoCapture(0)
-
-**Step 2:** Write the captured image using cv2.imwrite("NewPicture.jpg",frame)
-
-**Step 3:** Resize the image using cv2.resize() to get a four-split screen.
-
-**Step 4:** Rotate the image using cv2.rotate(smaller_frame,cv2.cv2.ROTATE_180)
-
-**Step 5:** Display the image until the key to close the window is pressed.
+- **Step 1:** Import cv2 and capture the video using cv2.VideoCapture(0)
+- **Step 2:** Write the captured image using cv2.imwrite("NewPicture.jpg",frame)
+- **Step 3:** Resize the image using cv2.resize() to get a four-split screen.
+- **Step 4:** Rotate the image using cv2.rotate(smaller_frame,cv2.cv2.ROTATE_180)
+- **Step 5:** Display the image until the key to close the window is pressed.
 
 ## Program:
-> Developed By: Kaushika A
-
+> Developed By: Kaushika A <br>
 > Register No: 212221230048
+ 
 
 **i) Write the frame as JPG file**
 ```python
