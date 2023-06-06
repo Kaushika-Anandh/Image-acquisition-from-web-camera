@@ -1,8 +1,30 @@
-# Image-Acquisition-from-Web-Camera
+Exp.No : 02 
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+Date : 22.03.2023
+<br>
+# Image Acquisition from Web Camera
 ## Aim
- 
-Aim:
- 
 To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations.
 
 1.  Write the frame as JPG 
@@ -13,23 +35,22 @@ To write a python program using OpenCV to capture the image from the web camera 
 ## Software Used
 Anaconda - Python 3.7
 ## Algorithm
-### Step 1:
-Import cv2 and capture the video using cv2.VideoCapture(0)
-### Step 2:
-Write the captured image using cv2.imwrite("NewPicture.jpg",frame)
-### Step 3:
-Resize the image using cv2.resize() to get a four-split screen.
-### Step 4:
-Rotate the image using cv2.rotate(smaller_frame,cv2.cv2.ROTATE_180)
-### Step 5:
-Display the image until the key to close the window is pressed.
+**Step 1:** Import cv2 and capture the video using cv2.VideoCapture(0)
+
+**Step 2:** Write the captured image using cv2.imwrite("NewPicture.jpg",frame)
+
+**Step 3:** Resize the image using cv2.resize() to get a four-split screen.
+
+**Step 4:** Rotate the image using cv2.rotate(smaller_frame,cv2.cv2.ROTATE_180)
+
+**Step 5:** Display the image until the key to close the window is pressed.
 
 ## Program:
-``` Python
-### Developed By: Kaushika A
-### Register No: 212221230048
-```
-## i) Write the frame as JPG file
+> Developed By: Kaushika A
+
+> Register No: 212221230048
+
+**i) Write the frame as JPG file**
 ```python
 VidCap2 = cv2.VideoCapture(0)
 while(True):
@@ -42,7 +63,7 @@ while(True):
 VidCap2.release()
 cv2.destroyAllWindows()
 ```
-## ii) Display the video
+**ii) Display the video**
 ```python
 VidCap=cv2.VideoCapture(0)
 while(True):
@@ -53,7 +74,7 @@ while(True):
 VidCap.release()
 cv2.destroyAllWindows()
 ```
-## iii) Display the video by resizing the window
+**iii) Display the video by resizing the window**
 ```python
 cap=cv2.VideoCapture(0)
 while(True):
@@ -74,7 +95,7 @@ while(True):
 VidCap.release()
 cv2.destroyAllWindows()
 ```
-## iv) Rotate and display the video
+**iv) Rotate and display the video**
 ```python
 cap2=cv2.VideoCapture(0)
 while(True):
@@ -97,21 +118,17 @@ cv2.destroyAllWindows()
 ```
 ## Output
 
-### i) Write the frame as JPG image
-![](212221230048.jpg)
+#### i) Write the frame as JPG image
+<img src="https://github.com/Kaushika-Anandh/Read-and-Write-Image/blob/main/212221230048.jpg" width="300" height="320">
 
-### ii) Display the video
-![](display_vid.png)
+#### ii) Display the video
+<img src="https://github.com/Kaushika-Anandh/Read-and-Write-Image/blob/main/display_vid.png" width="300" height="320">
 
-### iii) Display the video by resizing the window
-![](quad_img.png)
+#### iii) Display the video by resizing the window
+<img src="https://github.com/Kaushika-Anandh/Read-and-Write-Image/blob/main/quad_img.png" width="300" height="320">
 
-### iv) Rotate and display the video
-![](quad_rotate.png)
-
-
-
-
+#### iv) Rotate and display the video
+<img src="https://github.com/Kaushika-Anandh/Read-and-Write-Image/blob/main/quad_rotate.png" width="300" height="320">
 
 ## Result:
 Thus the image is accessed from webcamera and displayed using openCV.
